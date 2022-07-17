@@ -1,0 +1,38 @@
+My configuration files to help me set new machines easily.
+First install all these dependencies correctly.
+Then apply the dot files using
+
+#+begin_src bash
+  chezmoi init --apply https://github.com/usamar240/dotfiles.git
+#+end_src
+
+* Dependencies:
+** Chezmoi
+It is the actual configuration management system
+Install using
+
+sh -c "$(curl -fsLS chezmoi.io/get)" -- -b $HOME/.local/bin
+
+** i3wm
+Install i3 window manager using 
+** Alacritty terminal
+** Spacemacs
+Simple installation using the git clone
+** Python development
+I will need to set up the virtual environment system I need 
+Then I can make a develop virtual environment with all the linters that I need
+Also need to add this environment to the path so Emacs can find executables
+Also I still need to figure out what sort of process I need to adopt 
+
+** Prose Linters
+These should work in org-mode, latex, rst and text.
+proselint
+textlint
+
+
+
+* Work
+Then I also need to set the ssh access, I can find these details in my org notes.
+After setting up ssh I can import my org notes.
+These would also have information about any projects that I am currently working on etc.
+Then I can go about setting any further things I need for my projects.

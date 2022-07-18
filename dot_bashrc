@@ -120,5 +120,13 @@ fi
 /usr/bin/setxkbmap -option "caps:swapescape"
 
 
-# Need to set path variables here
+# Should I point my python to always the develop one
+# export PATH=~/.virtualenvs/develop/bin:$PATH
+source /usr/local/bin/virtualenvwrapper.sh
+
+# autocompletion based on already typed command
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
+bind '"\eOA": history-search-backward'
+bind '"\eOB": history-search-forward'
 

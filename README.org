@@ -11,8 +11,9 @@ Then apply the dot files using
 It is the actual configuration management system
 Install using
 
+#+begin_src 
 sh -c "$(curl -fsLS chezmoi.io/get)" -- -b $HOME/.local/bin
-
+#+end_src
 ** i3wm
 Install i3 window manager using 
 ** Alacritty terminal
@@ -23,11 +24,14 @@ I will need to set up the virtual environment system I need
 Then I can make a develop virtual environment with all the linters that I need
 Also need to add this environment to the path so Emacs can find executables
 Also I still need to figure out what sort of process I need to adopt 
+I have copied the poetry configuration
 
 ** Prose Linters
 These should work in org-mode, latex, rst and text.
-proselint
-textlint
+These are installed using node I think 
+
+1. proselint
+2. textlint
 
 
 
